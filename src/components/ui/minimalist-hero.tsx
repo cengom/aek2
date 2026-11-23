@@ -147,7 +147,7 @@ export const MinimalistHero = ({
           transition={{ duration: 0.6, delay: 1.2 }}
           className="z-20 order-3 flex items-center justify-center text-center md:justify-start"
         >
-          <h1 className="text-7xl font-extrabold text-foreground md:text-8xl lg:text-9xl">
+          <h1 className="text-7xl font-extrabold leading-[0.95] tracking-[-0.04em] text-foreground md:text-[clamp(4rem,8.5vw,8rem)]">
             {overlayText.part1}
             <br />
             {overlayText.part2}
